@@ -49,7 +49,7 @@ input[type="radio"]:checked + label,
 .dc_down-button--container .dc_down-button {width: 100%; padding: 0;}
 
 /* dc_back-image--list */
-.dc_back-image--container ul {width: 100%; position: absolute; padding: 67px 47px 0; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 5px; grid-row-gap: 5px;}
+.dc_back-image--container ul {width: calc(100% - 94px); position: absolute; padding: 67px 47px 0; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 5px; grid-row-gap: 5px;}
 .dc_back-image--container ul li {width: 100%;}
 .dc_back-image--container ul li input + label{display: inline-block; position: relative; width: 100%; cursor: pointer;}
 
@@ -63,12 +63,15 @@ input[type="radio"]:checked + label,
 .dc_input--container .input-area {width: 80%; height: 92px; background: #fff; color: #000; padding: 25px 20px 63px; font-size: 18px; border-radius: 7px; position: absolute; top: 0; margin-top: 83px; left: 50%; transform: translateX(-50%);}
 .dc_complete.text {position: absolute; top: 204px !important; right: 43px !important; width: 74px; height: 43px; padding: 0; border: none; background-color: #000; color: #fff !important; font-weight: bold; border-radius: 7px;}/* dc_text-deco--container */
 /* dc_text-deco--container dc_text-color--container  */
-.dc_text-color-size-container {width: 100vw; height: 316px; position: absolute; left: 0; z-index: 1000; background: #fff; border-top-left-radius: 30px; border-top-right-radius: 30px; transition: all ease-in-out 0.3s; padding: 56px 28px 33px;}
+.dc_text-color-size-container {width: calc(100% - 56px); height: 316px; position: absolute; left: 0; z-index: 1000; background: #fff; border-top-left-radius: 30px; border-top-right-radius: 30px; transition: all ease-in-out 0.3s; padding: 56px 28px 33px;}
 .dc_text-deco--container .dc_close {color: #000; right: 17px; top: 11px;}
 .dc_text-deco--container .dc_text-color--container {width: 100%; height: 126px;}
 .dc_text-deco--container .dc_text-color--container ul {width: calc(100% - 60px); height: 126px; position: absolute; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-column-gap: 25px; grid-row-gap: 25px; text-align: center;}
 .dc_text-deco--container .dc_text-color--container ul li input[type="radio"] + label {display: inline-block; position: relative; min-width: 40px; min-height: 42px; max-height: 42px; cursor: pointer; border-radius: 50%; border: 2px solid #000;}
 .dc_text-deco--container .dc_text-color--container ul li input[type="radio"]:checked + label {box-shadow: 2px 2px #000;}
+.dc_text-deco--container .dc_text-color--container ul li input#indigo:checked + label,
+.dc_text-deco--container .dc_text-color--container ul li input#purple:checked + label,
+.dc_text-deco--container .dc_text-color--container ul li input#black:checked + label {border: 2px solid #fff;}
 .dc_text-deco--container .dc_text-color--container ul li input#red:checked + label::after,
 .dc_text-deco--container .dc_text-color--container ul li input#orange:checked + label::after,
 .dc_text-deco--container .dc_text-color--container ul li input#green:checked + label::after,
@@ -81,11 +84,12 @@ input[type="radio"]:checked + label,
 /* dc_text-deco--container dc_text-size--container  */
 .dc_text-deco--container .dc_text-size--container {width: 100%; height: 36px; margin-top: 40px;}
 .dc_text-deco--container .dc_text-size--container ul {width: 100%; height: 36px; display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 27px;}
+.dc_text-deco--container .dc_text-size--container ul li input[type="radio"] + label {display: inline-block;  width: 100%;  height: 54px; font-weight: bold; color: #ccc; border: 2px solid #ccc; border-radius: 13px; box-sizing: border-box; background-color: #fff; text-align: center; line-height: 47px; overflow: hidden; cursor: pointer;}
 .dc_text-deco--container .dc_text-size--container ul li input[type="radio"]:checked + label {color: #000; border-color: #000; box-shadow: 1.7px 1.7px #000;}
 
 /* dc_tool--container */
-.dc_tool--container {width: 100%; height: 210px; z-index: 1; background: #fff; position: relative;}
-.dc_tool--container .dc_tool {width: 100%; height: 90px; padding: 20px 47px 7px; display: flex;}
+.dc_tool--container {width: 100vw; height: 210px; z-index: 1; background: #fff; position: relative;}
+.dc_tool--container .dc_tool {width: calc(100% - 94px); height: 90px; padding: 20px 47px 7px; display: flex;}
 .dc_tool--container .dc_tool .dc_tool-button {flex: 1; background: transparent; border: none; cursor: pointer; width: calc((100% - 60px) / 4); padding: 0; margin-right: 20px;}
 .dc_tool--container .dc_tool .dc_tool-button:last-child {margin-right: 0;}
 
@@ -118,5 +122,5 @@ input[type="radio"]:checked + label,
 .dc_drag-area-text.on .dc_drag-text {border: 1px solid #000;}
 .dc_drag-area-text.on .moveable-control-box {min-width: 100px; min-height: 25px; padding: 20px;}
 .dc_drag-area-text.on .moveable-rotation {transform: none; top: -40px; left: 50%; transform: translateX(-50%) !important; bottom: 0;}
-.moveable-direction {display: none !important;}
-.moveable-direction[data-direction='se'] {display: block !important; width: 24px; height: 24px; position: absolute; top: 0; left: 0; background: url(../images/btn/btn_scale.svg) no-repeat center / 100%; border: none;}
+.rCS1rb3a7w .moveable-direction {display: none !important;}
+.rCS1rb3a7w .moveable-direction[data-direction='se'] {display: block !important; width: 24px; height: 24px; position: absolute; top: 0; left: 0; background: url(../images/btn/btn_scale.svg) no-repeat center / 100%; border: none;}
