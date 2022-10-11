@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175" height="175" viewBox="0 0 175 175">
+  <defs>
+    <filter id="b078a5b35f9c08edf34dc20bde715530" x="0" y="0" width="175" height="175" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_47" data-name="그룹 47" transform="translate(-328.127 -372.678)">
+    <g transform="matrix(1, 0, 0, 1, 328.13, 372.68)" filter="url(#b078a5b35f9c08edf34dc20bde715530)">
+      <g id="b078a5b35f9c08edf34dc20bde715530-2" data-name="b078a5b35f9c08edf34dc20bde715530" transform="translate(0 0)" fill="#fff" stroke="#000" stroke-width="5">
+        <circle cx="85" cy="85" r="85" stroke="none"/>
+        <circle cx="85" cy="85" r="82.5" fill="none"/>
+      </g>
+    </g>
+    <path id="패스_129" data-name="패스 129" d="M431.405,412.677A13.722,13.722,0,0,1,445.128,426.4v48.556a13.722,13.722,0,0,1-13.722,13.722H382.85a13.722,13.722,0,0,1-13.722-13.722V426.4a13.722,13.722,0,0,1,13.722-13.722Zm2.449,69.253-24.51-24.012a3.173,3.173,0,0,0-4.079-.3l-.355.3-24.519,24.008a7.4,7.4,0,0,0,2.458.418h48.556a7.341,7.341,0,0,0,2.449-.414l-24.51-24.012Zm-2.449-62.92H382.85a7.389,7.389,0,0,0-7.389,7.389v48.556a7.347,7.347,0,0,0,.435,2.508l24.586-24.071a9.5,9.5,0,0,1,12.751-.49l.54.49,24.582,24.075a7.4,7.4,0,0,0,.439-2.512V426.4A7.392,7.392,0,0,0,431.405,419.01Zm-10.547,8.445a9.511,9.511,0,1,1-9.509,9.508A9.51,9.51,0,0,1,420.858,427.455Zm0,6.333a3.177,3.177,0,1,0,3.175,3.175A3.177,3.177,0,0,0,420.858,433.788Z" transform="translate(5.999 6.999)"/>
+  </g>
+</svg>
