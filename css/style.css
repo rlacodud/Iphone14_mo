@@ -54,7 +54,7 @@ input[type="radio"]:checked + label,
 .dc_back-image--container ul li input + label{display: inline-block; position: relative; width: 100%; cursor: pointer;}
 
 /* dc_sticker--container */
-.dc_sticker--container ul {width: 100%; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 10px; padding: 83px 28px 0; overflow-y: scroll;}
+.dc_sticker--container ul {width: calc(100% - 56px); display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 10px; padding: 83px 28px 0; overflow-y: scroll;}
 .dc_sticker--container ul::-webkit-scrollbar {display: none;}
 .dc_sticker--container ul li {display: inline-block; cursor: pointer;}
 .dc_sticker--container ul li button {width: 100%; height: 100%;}
